@@ -12,4 +12,3 @@ while HasReachedOne == False:
 		print("INT: ", StartingNum, " takes ",NumOfSteps," steps to reach 1");
 		HasReachedOne = True;
 	print(EndingNum);
-
