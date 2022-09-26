@@ -12,7 +12,6 @@ if(sys.argv[1] == "buy"):
    webbrowser.open_new_tab("https://www.booksamillion.com/search?filter=&id=8179156492718&query=" + Book)
    webbrowser.open_new_tab("https://www.audible.com/search?keywords=" + Book)
    webbrowser.open_new_tab("https://play.google.com/store/search?q=" + Book + "&c=books")
-
 else:
 	webbrowser.open_new_tab("https://brooklyn.overdrive.com/search?query=" + Book)
 	webbrowser.open_new_tab("https://fairfax.overdrive.com/search?query=" + Book)
